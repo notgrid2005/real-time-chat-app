@@ -1,0 +1,19 @@
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: -apple-system, sans-serif; background: #0f172a; color: #e2e8f0; height: 100vh; display: flex; justify-content: center; align-items: center; }
+.container { width: 100%; max-width: 500px; padding: 20px; }
+.hidden { display: none !important; }
+#join-screen { text-align: center; }
+#join-screen h1 { font-size: 2rem; margin-bottom: 20px; }
+#join-screen input { width: 100%; padding: 12px; border-radius: 8px; border: 1px solid #334155; background: #1e293b; color: white; font-size: 16px; margin-bottom: 12px; }
+#join-screen button { width: 100%; padding: 12px; border-radius: 8px; border: none; background: #6366f1; color: white; font-size: 16px; cursor: pointer; }
+#chat-header { display: flex; justify-content: space-between; align-items: center; padding: 10px 0; border-bottom: 1px solid #334155; margin-bottom: 10px; }
+#messages { height: 400px; overflow-y: auto; padding: 10px 0; }
+.msg { margin-bottom: 10px; padding: 8px 12px; border-radius: 8px; background: #1e293b; }
+.msg .name { font-weight: bold; color: #818cf8; font-size: 0.85em; }
+.msg .text { margin-top: 4px; }
+.msg .time { font-size: 0.7em; color: #64748b; margin-top: 2px; }
+.msg.system { background: transparent; color: #64748b; font-style: italic; text-align: center; }
+#typing-indicator { height: 20px; font-size: 0.8em; color: #64748b; }
+#input-area { display: flex; gap: 8px; margin-top: 8px; }
+#message-input { flex: 1; padding: 10px; border-radius: 8px; border: 1px solid #334155; background: #1e293b; color: white; font-size: 14px; }
+#send-btn { padding: 10px 20px; border-radius: 8px; border: none; background: #6366f1; color: white; cursor: pointer; }
